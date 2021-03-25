@@ -1,13 +1,165 @@
 /*section bg*/
 .background{
-	background-image: url(https://stasher.com/blog/wp-content/uploads/2019/07/luca-baggio-ET244M6ZMN4-unsplash-1024x683.jpg);
-	height: 1280px;
-	width: 900px;
+	width:100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	width: 100%;
-    height: 100vh;
+    height:1200px;
     position: relative;
     z-index: -1;
+}
+.text{
+	position: absolute;
+	font-family:'Lato', sans-serif;
+	font-weight: 100;
+	font-size:100px;
+	color:#FFFFFF;
+	margin-bottom:269px;
+}
+.box-wraper{	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clear {
+	clear: both;
+}
+.container2{
+	position: absolute;
+	display: flex;
+    width: 1068px;
+    justify-content: space-between;
+    margin-bottom:1100px;
+}
+.lnd{
+	position: absolute;
+	display: flex;
+	font-size: 28px;
+	font-family: 'Lato', sans-serif;
+	font-weight:bold;
+	color: #D9F0FF;
+ }
+
+.navigation {
+	font-size:12px;
+	font-family:'Lato', sans-serif;
+	font-weight:bold;
+	display: inline-block;
+	clear: both;
+	margin-left: auto;
+}
+.navigation li {
+	display: inline-block;
+	margin-right: 30px;
+}
+.active{
+		color:#D9F0FF;
+	}
+/*section*/
+.wraper{
+	position:relative;
+	display: flex;
+	height: 602px;
+    width:auto;
+	justify-content: center;
+}
+.left-box{
+		height: 602px;
+	width: 640px;
+}
+.right-box{
+	height: 602px;
+	width: 640px;
+}
+.image1{
+	height: 602px;
+	width: 640px;
+}
+.text2{
+	font-size:50px;
+	font-family:'Lato', sans-serif;
+	font-weight: lighter;
+	width: 500px;
+	margin-top: 88px;
+	margin-bottom:43px;
+}
+.text3{
+	font-size: 16px;
+	font-family:'Lato', sans-serif;
+	font-weight: lighter;
+}
+.text4{
+	  display: flex;
+   	 justify-content: center;
+   	 align-items: center;
+	  width:307px;
+      height:72px;
+      background: #325DFF;
+      position: absolute;
+      border-radius: 47px;
+      font-size: 14px;
+      color: white;
+	font-family:'Lato', sans-serif;
+	font-weight: bold;
+	letter-spacing: 5px;
+	word-spacing: 5px;
+	margin-top: 66px;
+}
+/*footer section*/
+.container4{
+	height: 1160px;
+	width: auto;
+background-color: #FAFAFA;
+	position:relative;
+		display: flex;
+	justify-content: center;
+
+}
+.box2{
+	margin-top: 74px;
+	width: 770px;
+	height: 101px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+.text5{
+	font-size:35px;
+	font-family:'Lato', sans-serif;
+	font-weight: lighter;
+	text-align: center;
+}
+.text6{	
+	margin-top: 20px;
+	text-align: center;
+	font-size: 16px;
+	font-family:'Lato', sans-serif;
+	font-weight: lighter;
+}
+
+.box5{	
+
+	background-color: white;
+	width:371px;
+	height: 374px;
+
+}
+.box6{
+		background-color: white;
+		width:371px;
+		height: 374px;
+}
+.box7{
+		background-color: white;
+		width:371px;
+		height: 374px;
+}
+.box-wraper2{	
+	display: flex;
+	justify-content: space-between;
+	margin-top: 200px;
+	height: 773px;
+	width: 1171px;
+	background-color: red;
+	position: relative;
 }
