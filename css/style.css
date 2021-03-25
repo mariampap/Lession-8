@@ -1,0 +1,13 @@
+/*section bg*/
+.background{
+	background-image: url(https://stasher.com/blog/wp-content/uploads/2019/07/luca-baggio-ET244M6ZMN4-unsplash-1024x683.jpg);
+	height: 1280px;
+	width: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+}
