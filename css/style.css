@@ -136,7 +136,15 @@ background-color: #FAFAFA;
 	font-family:'Lato', sans-serif;
 	font-weight: lighter;
 }
-
+.box-wraper2{
+	margin-bottom: 25px;	
+	display: flex;
+	justify-content: space-between;
+	margin-top: 200px;
+	height:374px;
+	width: 1171px;
+	position: relative;
+}
 .box5{	
 
 	background-color: white;
@@ -154,12 +162,28 @@ background-color: #FAFAFA;
 		width:371px;
 		height: 374px;
 }
-.box-wraper2{	
+.box-wraper3{
 	display: flex;
 	justify-content: space-between;
 	margin-top: 200px;
-	height: 773px;
+	height:374px;
 	width: 1171px;
-	background-color: red;
-	position: relative;
+	margin-top: 30px;
+
+}
+.box8{	
+	background-color: white;
+	width:371px;
+	height: 374px;
+
+}
+.box9{
+		background-color: white;
+		width:371px;
+		height: 374px;
+}
+.box10{
+		background-color: white;
+		width:371px;
+		height: 374px;
 }
